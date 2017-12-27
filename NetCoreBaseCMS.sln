@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreBaseCMS.Web", "NetCoreBaseCMS.Web\NetCoreBaseCMS.Web.csproj", "{DA85B79F-F4AB-4C25-9344-36173D5BF1F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreBaseCMS.Web", "NetCoreBaseCMS.Web\NetCoreBaseCMS.Web.csproj", "{DA85B79F-F4AB-4C25-9344-36173D5BF1F3}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2B5A69DE-D6C3-4BF7-B6DE-1D23CE7FB6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreBaseCMS.Core", "..\NetCoreBaseCMS.Core\NetCoreBaseCMS.Core.csproj", "{9BA98E46-937D-40FE-937F-9BE8E02B25F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreBaseCMS.Data", "NetCoreBaseCMS.Data\NetCoreBaseCMS.Data.csproj", "{C2DCE947-9151-4CB9-9D61-CBF6ED781320}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EE394C00-DD3A-4F42-8B73-2BA1F1B0DD95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreBaseCMS.UnitTests", "Tests\NetCoreBaseCMS.UnitTests\NetCoreBaseCMS.UnitTests.csproj", "{56E3CA75-1966-48A9-B1B5-D822388BB714}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +29,24 @@ Global
 		{2B5A69DE-D6C3-4BF7-B6DE-1D23CE7FB6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B5A69DE-D6C3-4BF7-B6DE-1D23CE7FB6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B5A69DE-D6C3-4BF7-B6DE-1D23CE7FB6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA98E46-937D-40FE-937F-9BE8E02B25F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA98E46-937D-40FE-937F-9BE8E02B25F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA98E46-937D-40FE-937F-9BE8E02B25F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA98E46-937D-40FE-937F-9BE8E02B25F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DCE947-9151-4CB9-9D61-CBF6ED781320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DCE947-9151-4CB9-9D61-CBF6ED781320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DCE947-9151-4CB9-9D61-CBF6ED781320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DCE947-9151-4CB9-9D61-CBF6ED781320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E3CA75-1966-48A9-B1B5-D822388BB714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E3CA75-1966-48A9-B1B5-D822388BB714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E3CA75-1966-48A9-B1B5-D822388BB714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E3CA75-1966-48A9-B1B5-D822388BB714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56E3CA75-1966-48A9-B1B5-D822388BB714} = {EE394C00-DD3A-4F42-8B73-2BA1F1B0DD95}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B2DB012-5B4D-431E-A9C4-57240EC8920D}
