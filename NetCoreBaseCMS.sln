@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreBaseCMS.Core", "..\N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreBaseCMS.Data", "NetCoreBaseCMS.Data\NetCoreBaseCMS.Data.csproj", "{C2DCE947-9151-4CB9-9D61-CBF6ED781320}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EE394C00-DD3A-4F42-8B73-2BA1F1B0DD95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreBaseCMS.UnitTests", "Tests\NetCoreBaseCMS.UnitTests\NetCoreBaseCMS.UnitTests.csproj", "{56E3CA75-1966-48A9-B1B5-D822388BB714}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +37,16 @@ Global
 		{C2DCE947-9151-4CB9-9D61-CBF6ED781320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2DCE947-9151-4CB9-9D61-CBF6ED781320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2DCE947-9151-4CB9-9D61-CBF6ED781320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E3CA75-1966-48A9-B1B5-D822388BB714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E3CA75-1966-48A9-B1B5-D822388BB714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E3CA75-1966-48A9-B1B5-D822388BB714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E3CA75-1966-48A9-B1B5-D822388BB714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56E3CA75-1966-48A9-B1B5-D822388BB714} = {EE394C00-DD3A-4F42-8B73-2BA1F1B0DD95}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B2DB012-5B4D-431E-A9C4-57240EC8920D}
